@@ -1,0 +1,35 @@
+﻿.container {
+    width: 100%;
+
+    .inputs_block_container {
+        margin: 3.5rem auto;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        .tabs_contaier {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-bottom: 1.5rem;
+            
+            .tabs_trigger {
+                width: 50%;
+            }
+            
+            .card {
+                width: 100%;
+                
+                .card_description {
+                    margin: 2rem 0;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5rem;
+                }
+            }
+        }
+    }
+}
